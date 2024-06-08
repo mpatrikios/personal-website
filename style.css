@@ -21,21 +21,20 @@ a{
     font-weight: none;
   }
   .navbar{
-      margin: 20px;
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      box-shadow: 0 0 10px #0005;
-      border-radius: 0.5rem; /*round edges*/
-      backdrop-filter: blur(10px);
-      background-color: rgba(248, 204, 231, 0.925);
-      width: 50%;
+    display: flex;
+    justify-content: flex-end;
   }
+  
 .navbar-container{
-    margin: 20px;
+    width: 60%;
+    box-shadow: 0 0 10px #0005;
+    border-radius: 0.5rem; /*round edges*/
+    backdrop-filter: blur(10px);
+    background-color: rgba(248, 204, 231, 0.925);
     display: flex;
     align-items: center;
     justify-content: center;
+    
   } 
   .navbar a:hover{
     color: #72A0C1;
