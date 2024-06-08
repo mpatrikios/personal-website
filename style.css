@@ -39,9 +39,26 @@ a{
   .navbar a:hover{
     color: #72A0C1;
   }
-  .bio-container{
+  .top-container{
     display: flex;
-    width:fit-content;
+    justify-content: space-between;
+  }
+  .description{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .links{
+    display: flex;
+    justify-content: space-between;
+  }
+  .bio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 50px;
   }
   
   @media screen and (min-width: 480px) {
